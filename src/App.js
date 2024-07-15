@@ -46,7 +46,7 @@ function App() {
   return (
     <>
     <Router>      
-        <Navbar Title="txtUtilz" aboutText="About txtUtilz" mode={mode} toggleMode={toggleMode}/>
+        <Navbar Title="txtChamp" aboutText="About txtChamp" mode={mode} toggleMode={toggleMode}/>
         <Alert alert={alert}/>
         <Routes>
         <Route exact path="/" element={<TextForm showAlert={showAlert} Heading="Enter Your Text Here!" mode={mode}/>} />
